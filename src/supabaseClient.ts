@@ -1,6 +1,12 @@
+// import { createClient } from '@supabase/supabase-js';
+
+// const supabaseUrl = process.env.VITE_SUPABASE_URL ?? '';
+// const supabaseAnonKey = process.env.VITE_SUPABASE_ANON_KEY ?? '';
+
+// export const supabase = createClient(supabaseUrl, supabaseAnonKey);
 import { createClient } from '@supabase/supabase-js';
 
-const supabaseUrl = 'https://jitbhdouiespuupeizja.supabase.co';
-const supabaseAnonKey = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImppdGJoZG91aWVzcHV1cGVpemphIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTM5NDk2MTEsImV4cCI6MjA2OTUyNTYxMX0._D8gKnv7Uku-DurXD4E2_-t_FLO9ypz5Yd9X6M9lZJM';
+const supabaseUrl = import.meta.env.VITE_SUPABASE_URL;
+const supabaseAnonKey = import.meta.env.VITE_SUPABASE_ANON_KEY;
 
 export const supabase = createClient(supabaseUrl, supabaseAnonKey);
