@@ -57,7 +57,7 @@ const SymptomForm = ({
         </label>
         <textarea id="otherSymptoms" value={otherSymptoms} onChange={e => setOtherSymptoms(e.target.value)} className="w-full p-3 rounded-xl border border-gray-300 focus:outline-none focus:ring-2 focus:ring-purple-500 min-h-[100px]" placeholder="Please describe any other symptoms you are experiencing..."></textarea>
       </div>
-      <div className="mb-6">
+      {/* <div className="mb-6">
         <label className="block text-sm font-medium text-gray-700 mb-2">
           Upload an image (optional)
         </label>
@@ -76,7 +76,7 @@ const SymptomForm = ({
               <X className="w-5 h-5" />
             </button>
           </div>}
-      </div>
+      </div> */}
       {error && <p className="text-red-500 mb-4">{error}</p>}
       <button type="submit" className="w-full bg-purple-600 text-white p-3 rounded-xl font-medium hover:bg-purple-700 transition">
         Continue
