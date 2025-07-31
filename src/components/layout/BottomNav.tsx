@@ -5,7 +5,7 @@ const BottomNav = () => {
   const location = useLocation();
   return <nav className="md:hidden fixed bottom-0 left-0 right-0 bg-white border-t border-gray-200 z-10 shadow-lg">
       <div className="flex items-center justify-around">
-        <NavItem to="/" icon={<Home />} label="Home" active={location.pathname === '/'} />
+        <NavItem to="/Interface" icon={<Home />} label="Interface" active={location.pathname === '/'} />
         <NavItem to="/symptoms" icon={<FileText />} label="Symptoms" active={location.pathname === '/symptoms'} />
         <NavItem to="/chat" icon={<MessageSquare />} label="Chat" active={location.pathname === '/chat'} />
         <NavItem to="/history" icon={<Clock />} label="History" active={location.pathname === '/history'} />

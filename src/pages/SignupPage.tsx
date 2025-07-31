@@ -10,10 +10,10 @@ const SignupPage = () => {
         Join Onco X to track your health and get personalized guidance
       </p>
       <div className="bg-white rounded-2xl p-6 shadow-sm border border-gray-100">
-        <button className="w-full flex items-center justify-center gap-2 border border-gray-300 rounded-xl p-3 mb-6 hover:bg-gray-50 transition">
+        {/* <button className="w-full flex items-center justify-center gap-2 border border-gray-300 rounded-xl p-3 mb-6 hover:bg-gray-50 transition">
           <div className="w-5 h-5" />
           <span>Continue with Google</span>
-        </button>
+        </button> */}
         <div className="relative my-6">
           <div className="absolute inset-0 flex items-center">
             <div className="w-full border-t border-gray-300"></div>

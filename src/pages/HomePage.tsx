@@ -18,8 +18,8 @@ const HomePage = () => {
             AI-powered health assistant.
           </p>
           <div className="flex flex-col sm:flex-row gap-3 justify-center">
-            <Link to="/symptoms" className="px-6 py-3 bg-purple-600 text-white rounded-xl font-medium shadow-sm hover:bg-purple-700 transition-colors duration-200 flex items-center justify-center">
-              Check My Symptoms
+            <Link to="/signup" className="px-6 py-3 bg-purple-600 text-white rounded-xl font-medium shadow-sm hover:bg-purple-700 transition-colors duration-200 flex items-center justify-center">
+              Sign Up to Check Your Symptoms
               <ArrowRight className="w-4 h-4 ml-2" />
             </Link>
             <Link to="/learn" className="px-6 py-3 bg-white text-gray-700 border border-gray-300 rounded-xl font-medium hover:bg-gray-50 transition-colors duration-200">
