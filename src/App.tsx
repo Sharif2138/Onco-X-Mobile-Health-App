@@ -8,7 +8,7 @@ import ProtectedLayout from './components/layout/ProtectedLayout';
 import SignupPage from './pages/SignupPage';
 import LoginPage from './pages/LoginPage';
 import HomePage from './pages/HomePage';
-import Interface from './pages/interface';
+import Interface from './pages/Interface';
 import SymptomsPage from './pages/SymptomsPage';
 import ResultsPage from './pages/ResultsPage';
 import ChatPage from './pages/ChatPage';

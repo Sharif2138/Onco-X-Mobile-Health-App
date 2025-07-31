@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 type QuestionType = {
   id: string;
   question: string;
-  type: 'select' | 'radio' | 'textarea';
+  type: 'select' | 'textarea';
   options?: string[];
 };
 type FollowUpQuestionProps = {

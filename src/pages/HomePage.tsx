@@ -22,9 +22,7 @@ const HomePage = () => {
               Sign Up to Check Your Symptoms
               <ArrowRight className="w-4 h-4 ml-2" />
             </Link>
-            <Link to="/learn" className="px-6 py-3 bg-white text-gray-700 border border-gray-300 rounded-xl font-medium hover:bg-gray-50 transition-colors duration-200">
-              Learn More
-            </Link>
+            
           </div>
         </div>
       </section>
@@ -82,7 +80,7 @@ const HomePage = () => {
           </p>
         </div>
         <div className="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto px-4">
-          <Link to="/learn" className="bg-gradient-to-br from-blue-50 to-blue-100 p-6 rounded-2xl flex items-center hover:shadow-md transition-shadow duration-200">
+          <div className="bg-gradient-to-br from-blue-50 to-blue-100 p-6 rounded-2xl flex items-center hover:shadow-md transition-shadow duration-200">
             <div className="bg-blue-200 rounded-xl p-3 mr-5">
               <BookOpen className="w-8 h-8 text-blue-600" />
             </div>
@@ -92,8 +90,8 @@ const HomePage = () => {
                 Learn about symptoms, risk factors, and treatments
               </p>
             </div>
-          </Link>
-          <Link to="/learn" className="bg-gradient-to-br from-green-50 to-green-100 p-6 rounded-2xl flex items-center hover:shadow-md transition-shadow duration-200">
+          </div>
+          <div className="bg-gradient-to-br from-green-50 to-green-100 p-6 rounded-2xl flex items-center hover:shadow-md transition-shadow duration-200">
             <div className="bg-green-200 rounded-xl p-3 mr-5">
               <Shield className="w-8 h-8 text-green-600" />
             </div>
@@ -105,7 +103,7 @@ const HomePage = () => {
                 Discover ways to reduce your cancer risk
               </p>
             </div>
-          </Link>
+          </div>
         </div>
       </section>
     </div>;

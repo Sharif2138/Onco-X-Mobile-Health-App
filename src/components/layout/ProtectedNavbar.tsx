@@ -37,6 +37,7 @@ const ProtectedNavbar: React.FC = () => {
           <NavLink to="/interface" label="Home" currentPath={location.pathname} />
           <NavLink to="/chat" label="Chat" currentPath={location.pathname} />
           <NavLink to="/learn" label="Learn" currentPath={location.pathname} />
+          <NavLink to="/history" label="History" currentPath={location.pathname} />
         </div>
 
         {/* Profile / Auth Buttons */}
